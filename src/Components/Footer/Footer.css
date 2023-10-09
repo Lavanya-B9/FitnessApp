@@ -1,0 +1,38 @@
+.Footer-container {
+    position: relative;
+}
+
+.Footer-container>hr {
+    border: 1px solid var(--orange);
+}
+
+.footer {
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.footer-icon {
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-icon:hover {
+    color: var(--orange);
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Footer-container {
+        padding-bottom: 20rem;
+    }
+}
